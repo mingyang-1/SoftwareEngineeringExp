@@ -3,7 +3,7 @@ package Logic;
 public class Logic {
     // 行细胞数、列细胞数
     private int rowNum = 5;
-    private int colNum = 10;
+    private final int colNum = 10;
 
     // 界面中细胞是否死完
     private boolean isDead;
